@@ -1,0 +1,4 @@
+# Create two users: user_principal_name & display_name are required argumen, force_password_change is optional, default value is false
+# Create four different users: a for-each argument whose value is a map or a set of strings, Terraform creates one instance for each member of that map or set, pass a list value to toset function to convert it to a set
+# Create two S3 bucket using count: count is a meta-argument. It can be used with modules and with every resource type. The count meta-argument accepts a whole number, and creates that many instances of the resource or module.
+# Create a Resource Group, Virtual Machine and Storage Account with Terraform. Use same Resource Group for every Azure resource: resource_group_name & location are resource type.local name.name of the same resource
